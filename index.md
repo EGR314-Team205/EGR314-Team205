@@ -5,6 +5,9 @@ title: Home
 # Home
 
 ## Introduction
+**Authors:**
+Michael Gross
+
 
 **Bold Text**
 _Italic Text_
