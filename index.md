@@ -7,7 +7,7 @@ title: Home
 ## Introduction
 **Authors:**
 Michael Gross
-Enoch Choi
+and Enoch Choi
 
 **Bold Text**
 _Italic Text_
