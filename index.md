@@ -7,7 +7,8 @@ title: Home
 ## Introduction
 **Authors:**
 Michael Gross
-and Enoch Choi
+,Enoch Choi,
+and Amy Valencia
 
 **Bold Text**
 _Italic Text_
