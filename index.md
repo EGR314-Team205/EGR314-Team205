@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Team 205
 ---
 # title
 
@@ -16,7 +16,17 @@ addition to our portfolio of engineering projects
 -Continue to improve time management skills throughout the project/semester
 -Express our passion for the environment and engineering
 
+## Mission Statement 
+_“To produce and showcase a cost-effective product that provides at least 2 different environmental sensory data types that will benefit the consumer.”_
 
+## Communication Channels 
+
+Table 1: Team Member Communication Modes
+|**Name             |1st Choice Communication|2nd Choice Communication|3rd Choice Communication**|
+|Michael Gross      |Discord                  |Email                   |Text/SMS                |
+|Deepit Arora       |Discord                  |Email                   |Text/SMS                |
+|Amy Joyce Valencia |Discord                  |Text/SMS                |Email                   |
+|Enoch Choi Discord |Discord                  |Text/SMS                |Email                   |
 
 
 ## Introduction
