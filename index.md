@@ -6,12 +6,13 @@ title: Home
 
 ## Introduction
 **Authors:**
-Michael Gross
-,Enoch Choi,
-and Amy Valencia
+
+Amy Valencia, Deepit Arora, Enoch Choi, and Michael Gross
+
 
 **Bold Text**
 _Italic Text_
+
 **_Bold and Italic Text_**
 
 ## Research Question
