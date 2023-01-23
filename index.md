@@ -1,7 +1,5 @@
----
-title: Team 205
----
-# title
+
+# Team 205 Report 
 
 
 # Team Organization
@@ -28,7 +26,7 @@ _“To produce and showcase a cost-effective product that provides at least 2 di
 
 Table 1: Team Member Communication Modes
 
-|Name             |1st Choice Communication|2nd Choice Communication|3rd Choice Communication  |
+|Name               |1st Choice Communication |2nd Choice Communication|3rd Choice Communication|
 |-------------------|:-----------------------:|-----------------------:|------------------------|
 |Michael Gross      |Discord                  |Email                   |Text/SMS                |
 |Deepit Arora       |Discord                  |Email                   |Text/SMS                |
@@ -46,19 +44,19 @@ The ideal times for our group to meet are Tuesday/Thursday at 12pm (see Table 1 
 Table 2: Meeting times acceptable for each group member, green blocks display days & times that work for all group members.
 
 | Time   | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday |
-|--------|-------:|-------:|--------:|----------:|---------:|-------:|----------|
-|8:00 AM |  AM    |    EM  | M       |EM         |M         | M      | M        |
-|9:00 AM | AM     |EM      |M        |EM         | M        |M       | M        |
-|10:00 AM|AM      |EAMD    |M        |EM         |M         |M       | M        |
-|11:00 AM| AM     |EAMD    |EAMD     |EM         |EAMD      |M       |M         |
-|12:00 PM|AMD     |        |EAMD     |           |EAMD      | M      | M        | 
-|1:00 PM |AMD     |M       |AMD      | EM        |AMD       |M       |M         |
-|2:00 PM |AMD     |M       |AMD      |EM         |EAMD      |M       | MD       |
+|--------|--------|--------|---------|-----------|----------|--------|----------|
+|8:00 AM |AM      |EM      |M        |EM         |M         |M       |M         |
+|9:00 AM |AM      |EM      |M        |EM         |M         |M       |M         |
+|10:00 AM|AM      |EAMD    |M        |EM         |M         |M       |M         |
+|11:00 AM|AM      |EAMD    |EAMD     |EM         |EAMD      |M       |M         |
+|12:00 PM|AMD     |        |EAMD     |           |EAMD      |M       |M         | 
+|1:00 PM |AMD     |M       |AMD      |EM         |AMD       |M       |M         |
+|2:00 PM |AMD     |M       |AMD      |EM         |EAMD      |M       |MD        |
 |3:00 PM |AMD     |        |EAMD     |EA         |EAMD      |M       |MD        |
 |4:00 PM |AMD     |E       |EAD      |EA         |EAMD      |M       |MD        |
 |5:00 PM |AMD     |EM      |EAD      |AM         |EAD       |M       |M         |
-|6:00 PM |AMD     |EM      |E        |AM         |E         |AM      | AM       |
-|7:00 PM | EAM    |EM      |E        |AM         |E         |EAM     |EAM       |
+|6:00 PM |AMD     |EM      |E        |AM         |E         |AM      |AM        |
+|7:00 PM |EAM     |EM      |E        |AM         |E         |EAM     |EAM       |
 |8:00 PM |EAM     |EAM     |EAM      |AM         |EAM       |EAM     |EAM       |
 |9:00 PM |EAM     |EAM     |EAM      |AM         |EAM       |EAM     |EAM       |
 
@@ -66,22 +64,21 @@ Table 2: Meeting times acceptable for each group member, green blocks display da
 Table 3: List of names, abbreviations used in Table 1 above, email, and phone. 
 
 |People |Abbreviation| Email          | Phone       |
-|-------|-----------:|---------------:|-------------| 
+|-------|------------|----------------|-------------| 
 |Michael|M           |mhgross2@asu.edu|520-419-9061 |
 |Deepit |D           |darora12@asu.edu|480-791-8445 |
 |Enoch  |E           |echoi22@asu.edu |714-393-9231 |
 |Amy    |A           |acvalen9@asu.edu|808-542-8065 |
 
 ## Meeting Coordiation
-
-    What method will you use to remind yourselves of meetings (a shared calendar?) 
-        A reminder text for each other about the times of the meeting.
-    How will your team go about changing or adding meeting times? 
-        We can let each other know either during class or through discord.
-    What's the preferred format for meetings (face-to-face or virtually)?
-        Virtually 
-    Are there any other procedures that your team feels are necessary? Describe them. 
-        If a team member is not able to attend a team meeting, they should communicate that 
+What method will you use to remind yourselves of meetings (a shared calendar?) 
+    A reminder text for each other about the times of the meeting.
+How will your team go about changing or adding meeting times? 
+    We can let each other know either during class or through discord.
+What's the preferred format for meetings (face-to-face or virtually)?
+    Virtually 
+Are there any other procedures that your team feels are necessary? Describe them. 
+    If a team member is not able to attend a team meeting, they should communicate that 
 
 
 ## Team Coordination 
@@ -90,6 +87,7 @@ Discord and emails will be used to communicate. The team will meet virtually ove
 ## Conflict Recognition and Resolution
 The team will ensure all members are equally contributing to the assignments. Any minor conflicts should be communicated via a communication channel. Any major conflict should be brought to the instructor's attention and, if necessary, a mediated discussion will be held.
 The team will ensure all members are equally contributing to the assignments. Any minor conflicts should be communicated via a communication channel. Any major conflict should be brought to the instructor's attention and, if necessary, a mediated discussion will be held.
+
 
 # User Needs, Benchmarking, and Requirements
 
@@ -101,19 +99,23 @@ Link:
 Price: $40
 Vendor:Amazon
 Description: This product is wifi based temperature and humidity sensor. Temperature is accurate to ±0.54℉/±0.3℃, and humidity is ±3%RH. By refreshing every 2s, you'll stay regularly updated. Now supports widget function.
+
+
 ![Govee WiFi Thermometer Hygrometer](/media/webpage/Govee%20WiFi%20Thermometer%20Hygrometer.png "Govee WiFi Thermometer Hygrometer")
-|Consumer Voice (Negative)               | Related Customer Needs                  |
-|----------------------------------------|-----------------------------------------|
-|“In less than a year. I have 5 units and|The product needs to be waterproof       |
- 4 no longer work. I was using reptile   |The product needs to be reliable         |
+
+
+|Consumer Voice (Negative)                  | Related Customer Needs                  |
+|-------------------------------------------|-----------------------------------------|
+|“In less than a year. I have 5 units and   |1. The product needs to be waterproof       |
+ 4 no longer work. I was using reptile      |2. The product needs to be reliable         |
  cages that had misters. I believe they 
  got wet or there was just too much 
  humidity. I found rust inside the 
  batteries so I’m assuming the water 
  and high humidity did them in”
 
-|Consumer Voice (Negative)               | Related Customer Needs                  |
-|----------------------------------------|-----------------------------------------|
+|Consumer Voice (Negative)                  | Related Customer Needs                  |
+|-------------------------------------------|-----------------------------------------|
 |“I wanted a more accurate and user-friendly| Should be easy to use | 
 hygrometer for my humidor. With the app     |The product needs to be reliable|
 I am able to see the temp, and humidity 
@@ -225,21 +227,16 @@ We looked at the more complete ideas and then decided as a team on the three bes
 
 ### Concept 2: Golf Assist
 This is a wind speed sensor which will help golfers and other casual sports to determine directions and speed of wind. There is an LED which will show the user when the wind is at a minimal level. Within the pole under the LED, there is a temperature sensor that provides information to the golfers of the current temperature and the color of the LED will change depending on if it is cold(blue) or hot(red).  The white flags on the top are the wind direction  indicators that show the direction of the wind which is very useful information to golfers when they hit the ball.
+
+
 ![Concept 2](/media/webpage//concept2.png "Concept 2")
 
 ### Concept 3: Plant Saviour
 This is an automatic plant feeder with a variable temperature heat lamp. Ideally, this is for households with low sunlight. The temperature of the bulb will vary depending on the temperature outside, which will be monitored using a temperature sensor. Along with this, a humidity sensor placed into the soil will monitor humidity levels and will automatically start the motor powered pump, distributing water to the soil.
+
+
 ![Concept 3](/media/webpage//concept3.png "Concept 3")
 
 # Checkpoint 1
-<iframe
-    width="640"
-    height="480"
-    src="https://youtu.be/tuxcnhY91rg"
-    frameborder="0"
-    allow="autoplay; encrypted-media"
-    allowfullscreen
->
-</iframe>
-
+[![Checkpoint1](http://img.youtube.com/vi/tuxcnhY91rg/0.jpg)](http://www.youtube.com/watch?v=tuxcnhY91rg "Checkpoint1")
 
