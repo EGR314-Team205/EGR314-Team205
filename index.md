@@ -8,12 +8,17 @@ title: Team 205
 ## Charter 
 
 -Utilize at least two different environmental sensors in our product
+
 -Create a low-cost solution suitable for a targeted consumer base
+
 -Measure and record environmental data
--Broadcast sensor data via MQTT protocol
-addition to our portfolio of engineering projects
--Continue to build experience creating embedded systems and working in a team
--Continue to improve time management skills throughout the project/semester
+
+-Broadcast sensor data via MQTT protocol addition to our portfolio of engineering project
+
+-Continue to build experience creating embedded systems and working in a team 
+
+-Continue to improve time management skills throughout the project/semester 
+
 -Express our passion for the environment and engineering
 
 ## Mission Statement 
@@ -23,6 +28,7 @@ _“To produce and showcase a cost-effective product that provides at least 2 di
 
 Table 1: Team Member Communication Modes
 |**Name             |1st Choice Communication|2nd Choice Communication|3rd Choice Communication**|
+|-------------------|:-----------------------:|-----------------------:|------------------------|
 |Michael Gross      |Discord                  |Email                   |Text/SMS                |
 |Deepit Arora       |Discord                  |Email                   |Text/SMS                |
 |Amy Joyce Valencia |Discord                  |Text/SMS                |Email                   |
