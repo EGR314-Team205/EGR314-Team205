@@ -1,9 +1,6 @@
 
-# Team 205 Report 
-
 
 # Team Organization
-
 
 ## Mission Statement 
 _“To produce and showcase a cost-effective product that provides at least 2 different environmental sensory data types that will benefit the consumer.”_
@@ -44,12 +41,12 @@ This is block diagram
 
 ## keys
 | sign | meaning|
-|:----|:----|
-|u|unverified connection/subsystem|
-|x|connection verified by you|
-|v (XYZ, 1/23/45)|connection verified by instructors (INITIALS, date)|
-|(xyz)|serial protocol|
-|nc|No Connection|
+| :----| :----|
+| u | unverified connection/subsystem |
+| x | connection verified by you |
+| v (XYZ, 1/23/45)| connection verified by instructors (INITIALS, date) |
+| (xyz) | serial protocol |
+| nc | No Connection |
 
 # Component Selection 
 
