@@ -40,6 +40,7 @@ This is block diagram
 |Push Button (Manual Override)| | | | | | | | | |u|
 
 ## keys
+
 | sign | meaning|
 | :----| :----|
 | u | unverified connection/subsystem |
@@ -60,27 +61,32 @@ This is block diagram
 |motor ![motor](/media/webpage//motor.png "motor")| $19.95|
 
 ## Temperature Sensor & Op Amp
+
 | Solution | Price |
 |:----|:----|
 |TC74A0 ![TC74A0](/media/webpage//TC74A0.png "TC74A0")| $1.09|
 |TMP36GT9Z ![TMP36GT9Z ](/media/webpage//TMP36GT9Z.png "TMP36GT9Z")| $2.40|
 
 ## Wind Sensor
+
 | Solution | Price |
 |:----|:----|
 |AS5600 ![AS5600](/media/webpage//AS5600.png "AS5600")| $3.46|
 
 
 ## Microcontroller 
+
 | Solution | Price |
 |:----|:----|
 |PIC18LF26K40![PIC18LF26K40](/media/webpage//PIC18LF26K40.png "PIC18LF26K40")| $2.04|
 
 
-# Hardware Proposal  
+# Hardware Proposal 
+
 ![Hardware Proposal](/media/webpage/harware_proposal.png "Harware Proposal")
 
-# Software Proposal 
+# Software Proposal
+
 ![Software Proposal](/media/webpage/software_proposal.png "Software Proposal")
 
 # Appendix A - Team Organization
@@ -313,6 +319,7 @@ This is an automatic plant feeder with a variable temperature heat lamp. Ideally
 
 
 # Appendix D - Component Selection
+
 |1. Determine your project-specific requirements| |3. Look up specifications in the PIC datasheet| | |
 |:----|:----|:----|:----|:----|
 |Design Considerations|Team Project-Specific Requirementsfrom Problem Definition and Block Diagram|PIC Option 1|PIC Option 2|PIC Option 3|
@@ -361,6 +368,7 @@ Small voltage rangehas more features than required|
 
 
 # Appendix E - Bill of Materials
+
 |Unit Quantity|Unit Cost|Total Cost|Manufacturer|Manufacturer Part #|Vendor Link|Datasheet Link|Supplier|Supplier Part #|
 |:----|:----|:----|:----|:----|:----|:----|:----|:----|
 |3|$3.46|$10.38|ams OSRAM|AS5600-ASOM|AS5600-ASOM ams OSRAM | Sensors, Transducers | DigiKey|AS5600|Digikey|AS5600-ASOMCT-ND|
