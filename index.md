@@ -19,7 +19,7 @@ This is a product that will assist people in wheelchair to block the wet rain or
 
 
 # Block Diagram 
-This is block diagram
+The following illustration demonstrates the team's projected hardware system and how it interconnects with the centered microcontroller and ESP32 Module. Additionally, the team utilizes I2C as the core communication between our sensors and PIC module.
 
 ![Block Diagram](/media/webpage/Block_Diagram.png "Block Diagram")
 
