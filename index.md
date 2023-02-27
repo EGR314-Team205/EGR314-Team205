@@ -83,7 +83,7 @@ The following illustration demonstrates the team's projected hardware system and
 
 # Hardware Proposal 
 
-![Hardware Proposal](/media/webpage/harware_proposal.png "Harware Proposal")
+![Hardware Proposal](/media/webpage/hardware_proposal.png "Hardware Proposal")
 
 # Software Proposal
 
