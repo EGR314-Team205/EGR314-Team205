@@ -56,7 +56,7 @@ This is block diagram
 
 | Solution | Price |
 |:----|:----|
-|drv8830dgqr ![drv8830dgqr](/media/webpage//drv8830dgqr.png "drv8830dgqr")<img width="25%" height="25%">| $2.41|
+|drv8830dgqr ![drv8830dgqr](/media/webpage//drv8830dgqr.png "drv8830dgqr")<img src="drv8830dgqr.png" alt= “drv8830dgqr” width="25%" height="25%">| $2.41|
 |solenoid ![solenoid](/media/webpage//solenoid.png "solenoid")| $7.50|
 |motor ![motor](/media/webpage//motor.png "motor")| $19.95|
 
