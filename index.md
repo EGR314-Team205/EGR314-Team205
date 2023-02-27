@@ -65,9 +65,8 @@ The following illustration demonstrates the team's projected hardware system and
 | Solution | Price |
 |:----|:----|
 |TC74A0 <img src="/media/webpage//TC74A0.png" alt="TC74A0" width="25%" height="25%"/>| $1.09|
-|TMP36GT9Z <img src="/media/webpage//TMP36GT9Z.png" alt="TMP36GT9Z" width="25%" height="25%"/>| $2.40|
 
-## Wind Sensor
+## Hall Effect (Wind Sensor)
 
 | Solution | Price |
 |:----|:----|
