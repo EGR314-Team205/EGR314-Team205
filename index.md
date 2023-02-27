@@ -243,7 +243,7 @@ Vendor:Amazon
 Description: This product is wifi based temperature and humidity sensor. Temperature is accurate to ±0.54℉/±0.3℃, and humidity is ±3%RH. By refreshing every 2s, you'll stay regularly updated. Now supports widget function.
 
 
-<img src="Govee%20WiFi%20Thermometer%20Hygrometer.png" alt="Govee WiFi Thermometer Hygrometer" width="50%" height="50%"/>
+<img src="/media/webpage/Govee%20WiFi%20Thermometer%20Hygrometer.png" alt="Govee WiFi Thermometer Hygrometer" width="50%" height="50%"/>
 
 
 |Consumer Voice (Negative)                  | Related Customer Needs                  |
