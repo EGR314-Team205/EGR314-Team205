@@ -56,29 +56,29 @@ This is block diagram
 
 | Solution | Price |
 |:----|:----|
-|drv8830dgqr ![drv8830dgqr](/media/webpage//drv8830dgqr.png "drv8830dgqr")<img src="/media/webpage//drv8830dgqr.png" width="25%" height="25%"/>| $2.41|
-|solenoid ![solenoid](/media/webpage//solenoid.png "solenoid")| $7.50|
-|motor ![motor](/media/webpage//motor.png "motor")| $19.95|
+|drv8830dgqr <img src="/media/webpage//drv8830dgqr.png" alt="drv8830dgqr" width="25%" height="25%"/>| $2.41|
+|solenoid <img src="/media/webpage//solenoid.png" alt="solenoid" width="25%" height="25%"/> | $7.50|
+|motor <img src="/media/webpage//motor.png" alt="motor" width="25%" height="25%"/>| $19.95|
 
 ## Temperature Sensor & Op Amp
 
 | Solution | Price |
 |:----|:----|
-|TC74A0 ![TC74A0](/media/webpage//TC74A0.png "TC74A0")| $1.09|
-|TMP36GT9Z ![TMP36GT9Z ](/media/webpage//TMP36GT9Z.png "TMP36GT9Z")| $2.40|
+|TC74A0 <img src="/media/webpage//TC74A0.png" alt="TC74A0" width="25%" height="25%"/>| $1.09|
+|TMP36GT9Z <img src="/media/webpage//TMP36GT9Z.png" alt="TMP36GT9Z" width="25%" height="25%"/>| $2.40|
 
 ## Wind Sensor
 
 | Solution | Price |
 |:----|:----|
-|AS5600 ![AS5600](/media/webpage//AS5600.png "AS5600")| $3.46|
+|AS5600 <img src="/media/webpage//AS5600.png" alt="AS5600" width="25%" height="25%"/>| $3.46|
 
 
 ## Microcontroller 
 
 | Solution | Price |
 |:----|:----|
-|PIC18LF26K40![PIC18LF26K40](/media/webpage//PIC18LF26K40.png "PIC18LF26K40")| $2.04|
+|PIC18LF26K40 <img src="/media/webpage//PIC18LF26K40.png" alt="PIC18LF26K40" width="25%" height="25%"/>| $2.04|
 
 
 # Hardware Proposal 
@@ -243,7 +243,7 @@ Vendor:Amazon
 Description: This product is wifi based temperature and humidity sensor. Temperature is accurate to ±0.54℉/±0.3℃, and humidity is ±3%RH. By refreshing every 2s, you'll stay regularly updated. Now supports widget function.
 
 
-![Govee WiFi Thermometer Hygrometer](/media/webpage/Govee%20WiFi%20Thermometer%20Hygrometer.png "Govee WiFi Thermometer Hygrometer")
+<img src="Govee%20WiFi%20Thermometer%20Hygrometer.png" alt="Govee WiFi Thermometer Hygrometer" width="50%" height="50%"/>
 
 
 |Consumer Voice (Negative)                  | Related Customer Needs                  |
