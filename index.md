@@ -12,10 +12,10 @@ _“To produce and showcase a cost-effective product that provides at least 2 di
 
 
 
-# Team Design 
-test test test
+# Team Design: Weather Umbrella
+This is a product that will assist people in wheelchair to block the wet rain or the very hot sunlight. This device will be activated when either the temperature detects very hot weather or the user feels rain coming down. When it rains, the wind speed sensor will use the data collected of the wind speed and calculate the direction of the wind to direct the umbrella to go against the rain the protect the user from getting wet. The umbrella that is mounted in this device is a umbrella that is able to open and close with a push of a button which will be pressed by the solenoid motor. Also, there is a clamp at the bottom of the device that will be able to clamp onto the side poles of the back supports of wheelchairs.
 
-![Concept 2](/media/webpage//concept2.png "Concept 2")
+![Concept 2](/media/webpage//EGR314Concept.png "Chosen Design Concept")
 
 
 # Block Diagram 
@@ -292,7 +292,7 @@ The following document outlines the team’s brainstorming process in preparatio
 ![Initial Brainstroming Session](/media/webpage//Initial%20Brainstorming%20Session.png "Initial Brainstroming Session")
 
 ## Grouping Phase 1
-The team sorted the ideas into either 1) a base idea which could be expanded upon or 2) a potential modifying attribute of a pre-existing idea. 
+The team sorted the ideas into either 1) a base idea which could be expanded upon or 2) a potential modifying attribute of a pre-existing idea.
 
 ![Grouping Phase 1](/media/webpage//Grouping%20Phase%201.png "Grouping Phase 1")
 
@@ -303,6 +303,9 @@ We looked at the more complete ideas and then decided as a team on the three bes
 ![Grouping Phase 2](/media/webpage//Grouping%20Phase%202.png "Grouping Phase 2")
 
 ### Concept 1: Firefighter’s Hat
+This concept utilizes the temperature and air quality sensor to determine whether the fan motor should actuate as an intake or as an outake direction. These sensors will constantly track the environmental data when the firefighter might be in close proximity to heat or a fire. This system, in turn, will attempt to reduce the internal temperatures inside the helmet during these harsh conditions.
+
+
 ![Concept 1](/media/webpage//concept1.png "Concept 1")
 
 ### Concept 2: Golf Assist
@@ -311,11 +314,11 @@ This is a wind speed sensor which will help golfers and other casual sports to d
 
 ![Concept 2](/media/webpage//concept2.png "Concept 2")
 
-### Concept 3: Plant Saviour
-This is an automatic plant feeder with a variable temperature heat lamp. Ideally, this is for households with low sunlight. The temperature of the bulb will vary depending on the temperature outside, which will be monitored using a temperature sensor. Along with this, a humidity sensor placed into the soil will monitor humidity levels and will automatically start the motor powered pump, distributing water to the soil.
+### Concept 3: Weather Umbrella
+This is a product that will assist people in wheelchair to block the wet rain or the very hot sunlight. This device will be activated when either the temperature detects very hot weather or the user feels rain coming down. When it rains, the wind speed sensor will use the data collected of the wind speed and calculate the direction of the wind to direct the umbrella to go against the rain the protect the user from getting wet. The umbrella that is mounted in this device is a umbrella that is able to open and close with a push of a button which will be pressed by the solenoid motor. Also, there is a clamp at the bottom of the device that will be able to clamp onto the side poles of the back supports of wheelchairs.
 
 
-![Concept 3](/media/webpage//concept3.png "Concept 3")
+![Concept 3](/media/webpage//EGR314Concept.png "Concept 3")
 
 
 # Appendix D - Component Selection
