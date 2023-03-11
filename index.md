@@ -1,10 +1,96 @@
 
-# Team 205 Report 
-
 
 # Team Organization
 
+## Mission Statement 
+_“To produce and showcase a cost-effective product that provides at least 2 different environmental sensory data types that will benefit the consumer.”_
 
+
+# Checkpoint 1
+[![Checkpoint1](http://img.youtube.com/vi/tuxcnhY91rg/0.jpg)](http://www.youtube.com/watch?v=tuxcnhY91rg "Checkpoint1")
+
+
+
+
+# Team Design: Weather Umbrella
+This is a product that will assist people in wheelchair to block the wet rain or the very hot sunlight. This device will be activated when either the temperature detects very hot weather or the user feels rain coming down. When it rains, the wind speed sensor will use the data collected of the wind speed and calculate the direction of the wind to direct the umbrella to go against the rain the protect the user from getting wet. The umbrella that is mounted in this device is a umbrella that is able to open and close with a push of a button which will be pressed by the solenoid motor. Also, there is a clamp at the bottom of the device that will be able to clamp onto the side poles of the back supports of wheelchairs.
+
+![Concept 2](/media/webpage//EGR314Concept.png "Chosen Design Concept")
+
+
+# Block Diagram 
+The following illustration demonstrates the team's projected hardware system and how it interconnects with the centered microcontroller and ESP32 Module. Additionally, the team utilizes I2C as the core communication between our sensors and PIC module.
+
+![Block Diagram](/media/webpage/Block_Diagram.png "Block Diagram")
+
+
+# Verification Table 
+
+| |5V Power Supply|PIC|Voltage Divider|Windspeed Sensor|Temp Sensor|Motor Controller|Solenoid Motor (Extension)|Auxilary Motor (Pivot)|ESP32 MQTT Module|Push Button (Manual Override)|
+|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|
+|5V Power Supply|u|u|u|nc|nc|nc|nc|nc|nc|nc|
+|PIC| |u|u|u|u|u|nc|nc|u|u|
+|Voltage Divider| | |u|nc|nc|nc|nc|nc|nc|nc|
+|Windspeed Sensor| | | |u|nc|nc|nc|nc|nc|nc|
+|Temp Sensor| | | | |u|nc|nc|nc|nc|nc|
+|Motor Controller| | | | | |u|u|u|nc|nc|
+|Solenoid Motor (Extension)| | | | | | |u|nc|nc|nc|
+|Auxilary Motor (Pivot)| | | | | | | |u|nc|nc|
+|ESP32 MQTT Module| | | | | | | | |u|nc|
+|Push Button (Manual Override)| | | | | | | | | |u|
+
+## keys
+
+| sign | meaning|
+| :----| :----|
+| u | unverified connection/subsystem |
+| x | connection verified by you |
+| v (XYZ, 1/23/45)| connection verified by instructors (INITIALS, date) |
+| (xyz) | serial protocol |
+| nc | No Connection |
+
+# Component Selection 
+
+
+## Motor Sub System
+
+| Solution | Price |
+|:----|:----|
+|drv8830dgqr <img src="/media/webpage//drv8830dgqr.png" alt="drv8830dgqr" width="25%" height="25%"/>| $2.41|
+|solenoid <img src="/media/webpage//solenoid.png" alt="solenoid" width="25%" height="25%"/> | $7.50|
+|motor <img src="/media/webpage//motor.png" alt="motor" width="25%" height="25%"/>| $19.95|
+
+## Temperature Sensor & Op Amp
+
+| Solution | Price |
+|:----|:----|
+|TC74A0 <img src="/media/webpage//TC74A0.png" alt="TC74A0" width="25%" height="25%"/>| $1.09|
+
+## Hall Effect (Wind Sensor)
+
+| Solution | Price |
+|:----|:----|
+|AS5600 <img src="/media/webpage//AS5600.png" alt="AS5600" width="25%" height="25%"/>| $3.46|
+
+
+## Microcontroller 
+
+| Solution | Price |
+|:----|:----|
+|PIC18LF26K40 <img src="/media/webpage//PIC18LF26K40.png" alt="PIC18LF26K40" width="25%" height="25%"/>| $2.04|
+
+
+# Hardware Proposal 
+
+![Hardware Proposal](/media/webpage/hardware_proposal.png "Hardware Proposal")
+
+# Software Proposal
+
+![Software Proposal](/media/webpage/software_proposal.png "Software Proposal")
+
+# Appendix A - Team Organization
+
+<<<<<<< HEAD
 ## Mission Statement 
 _“To produce and showcase a cost-effective product that provides at least 2 different environmental sensory data types that will benefit the consumer.”_
 
@@ -89,6 +175,86 @@ This is block diagram
 # Appendix A - Team Organization
 [Appendix A](Appendix_A.md)
 
+=======
+## Charter 
+
+-Utilize at least two different environmental sensors in our product
+-Create a low-cost solution suitable for a targeted consumer base
+-Measure and record environmental data
+-Broadcast sensor data via MQTT protocol addition to our portfolio of engineering project
+-Continue to build experience creating embedded systems and working in a team 
+-Continue to improve time management skills throughout the project/semester 
+-Express our passion for the environment and engineering
+
+## Communication Channels 
+
+Table 1: Team Member Communication Modes
+
+|Name               |1st Choice Communication |2nd Choice Communication|3rd Choice Communication|
+|-------------------|:-----------------------:|-----------------------:|------------------------|
+|Michael Gross      |Discord                  |Email                   |Text/SMS                |
+|Deepit Arora       |Discord                  |Email                   |Text/SMS                |
+|Amy Joyce Valencia |Discord                  |Text/SMS                |Email                   |
+|Enoch Choi Discord |Discord                  |Text/SMS                |Email                   |
+
+
+## Communication Procedures
+Short updates will be communicated by Discord. Longer information or files will be communicated via ASU email. Instructor correspondence will pass through the team leader who will distribute any necessary information to the team in a timely manner.
+
+## Meeting Schedule 
+
+The ideal times for our group to meet are Tuesday/Thursday at 12pm (see Table 1 below). Additional contact information has also been provided in this section. Any member with help and coordination from the rest of the team can elect meetings. All times are subject to change in the case of emergency circumstances, sickness, absences, or any event that alters normal meeting times.
+
+Table 2: Meeting times acceptable for each group member, green blocks display days & times that work for all group members.
+
+| Time   | Sunday | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday |
+|--------|--------|--------|---------|-----------|----------|--------|----------|
+|8:00 AM |AM      |EM      |M        |EM         |M         |M       |M         |
+|9:00 AM |AM      |EM      |M        |EM         |M         |M       |M         |
+|10:00 AM|AM      |EAMD    |M        |EM         |M         |M       |M         |
+|11:00 AM|AM      |EAMD    |EAMD     |EM         |EAMD      |M       |M         |
+|12:00 PM|AMD     |        |EAMD     |           |EAMD      |M       |M         | 
+|1:00 PM |AMD     |M       |AMD      |EM         |AMD       |M       |M         |
+|2:00 PM |AMD     |M       |AMD      |EM         |EAMD      |M       |MD        |
+|3:00 PM |AMD     |        |EAMD     |EA         |EAMD      |M       |MD        |
+|4:00 PM |AMD     |E       |EAD      |EA         |EAMD      |M       |MD        |
+|5:00 PM |AMD     |EM      |EAD      |AM         |EAD       |M       |M         |
+|6:00 PM |AMD     |EM      |E        |AM         |E         |AM      |AM        |
+|7:00 PM |EAM     |EM      |E        |AM         |E         |EAM     |EAM       |
+|8:00 PM |EAM     |EAM     |EAM      |AM         |EAM       |EAM     |EAM       |
+|9:00 PM |EAM     |EAM     |EAM      |AM         |EAM       |EAM     |EAM       |
+
+
+Table 3: List of names, abbreviations used in Table 1 above, email, and phone. 
+
+|People |Abbreviation| Email          | Phone       |
+|-------|------------|----------------|-------------| 
+|Michael|M           |mhgross2@asu.edu|520-419-9061 |
+|Deepit |D           |darora12@asu.edu|480-791-8445 |
+|Enoch  |E           |echoi22@asu.edu |714-393-9231 |
+|Amy    |A           |acvalen9@asu.edu|808-542-8065 |
+
+## Meeting Coordiation
+What method will you use to remind yourselves of meetings (a shared calendar?) 
+    A reminder text for each other about the times of the meeting.
+How will your team go about changing or adding meeting times? 
+    We can let each other know either during class or through discord.
+What's the preferred format for meetings (face-to-face or virtually)?
+    Virtually 
+Are there any other procedures that your team feels are necessary? Describe them. 
+    If a team member is not able to attend a team meeting, they should communicate that 
+
+
+## Team Coordination 
+Discord and emails will be used to communicate. The team will meet virtually over discord call and in the PRLTA 103/107 as required. Calling only be resorted to when a team member is not responding. The team has a shared folder where all the documents and files will be stored.
+
+## Conflict Recognition and Resolution
+The team will ensure all members are equally contributing to the assignments. Any minor conflicts should be communicated via a communication channel. Any major conflict should be brought to the instructor's attention and, if necessary, a mediated discussion will be held.
+The team will ensure all members are equally contributing to the assignments. Any minor conflicts should be communicated via a communication channel. Any major conflict should be brought to the instructor's attention and, if necessary, a mediated discussion will be held.
+
+
+
+>>>>>>> 4d66daf680e977b10ce27f31c2d3cd9718b6a73b
 # Appendix B - User Needs, Benchmarking, and Requirements
 
 ## Design Aspects 
@@ -163,7 +329,11 @@ Vendor:Amazon
 Description: This product is wifi based temperature and humidity sensor. Temperature is accurate to ±0.54℉/±0.3℃, and humidity is ±3%RH. By refreshing every 2s, you'll stay regularly updated. Now supports widget function.
 
 
+<<<<<<< HEAD
 ![Govee WiFi Thermometer Hygrometer](/media/webpage/Govee%20WiFi%20Thermometer%20Hygrometer.png "Govee WiFi Thermometer Hygrometer")
+=======
+<img src="/media/webpage/Govee%20WiFi%20Thermometer%20Hygrometer.png" alt="Govee WiFi Thermometer Hygrometer" width="50%" height="50%"/>
+>>>>>>> 4d66daf680e977b10ce27f31c2d3cd9718b6a73b
 
 
 |Consumer Voice (Negative)                  | Related Customer Needs                  |
@@ -212,7 +382,7 @@ The following document outlines the team’s brainstorming process in preparatio
 ![Initial Brainstroming Session](/media/webpage//Initial%20Brainstorming%20Session.png "Initial Brainstroming Session")
 
 ## Grouping Phase 1
-The team sorted the ideas into either 1) a base idea which could be expanded upon or 2) a potential modifying attribute of a pre-existing idea. 
+The team sorted the ideas into either 1) a base idea which could be expanded upon or 2) a potential modifying attribute of a pre-existing idea.
 
 ![Grouping Phase 1](/media/webpage//Grouping%20Phase%201.png "Grouping Phase 1")
 
@@ -223,6 +393,9 @@ We looked at the more complete ideas and then decided as a team on the three bes
 ![Grouping Phase 2](/media/webpage//Grouping%20Phase%202.png "Grouping Phase 2")
 
 ### Concept 1: Firefighter’s Hat
+This concept utilizes the temperature and air quality sensor to determine whether the fan motor should actuate as an intake or as an outake direction. These sensors will constantly track the environmental data when the firefighter might be in close proximity to heat or a fire. This system, in turn, will attempt to reduce the internal temperatures inside the helmet during these harsh conditions.
+
+
 ![Concept 1](/media/webpage//concept1.png "Concept 1")
 
 ### Concept 2: Golf Assist
@@ -231,14 +404,22 @@ This is a wind speed sensor which will help golfers and other casual sports to d
 
 ![Concept 2](/media/webpage//concept2.png "Concept 2")
 
-### Concept 3: Plant Saviour
-This is an automatic plant feeder with a variable temperature heat lamp. Ideally, this is for households with low sunlight. The temperature of the bulb will vary depending on the temperature outside, which will be monitored using a temperature sensor. Along with this, a humidity sensor placed into the soil will monitor humidity levels and will automatically start the motor powered pump, distributing water to the soil.
+### Concept 3: Weather Umbrella
+This is a product that will assist people in wheelchair to block the wet rain or the very hot sunlight. This device will be activated when either the temperature detects very hot weather or the user feels rain coming down. When it rains, the wind speed sensor will use the data collected of the wind speed and calculate the direction of the wind to direct the umbrella to go against the rain the protect the user from getting wet. The umbrella that is mounted in this device is a umbrella that is able to open and close with a push of a button which will be pressed by the solenoid motor. Also, there is a clamp at the bottom of the device that will be able to clamp onto the side poles of the back supports of wheelchairs.
 
 
+<<<<<<< HEAD
 ![Concept 3](/media/webpage//concept3.png "Concept 3")
 
 
 # Appendix D - Component Selection
+=======
+![Concept 3](/media/webpage//EGR314Concept.png "Concept 3")
+
+
+# Appendix D - Component Selection
+
+>>>>>>> 4d66daf680e977b10ce27f31c2d3cd9718b6a73b
 |1. Determine your project-specific requirements| |3. Look up specifications in the PIC datasheet| | |
 |:----|:----|:----|:----|:----|
 |Design Considerations|Team Project-Specific Requirementsfrom Problem Definition and Block Diagram|PIC Option 1|PIC Option 2|PIC Option 3|
@@ -285,8 +466,14 @@ Small voltage rangehas more features than required|
 |Ranking|1 = first, 2 = second, 3 = third|1|2|3|
 
 
+<<<<<<< HEAD
 
 # Appendix E - Bill of Materials
+=======
+
+# Appendix E - Bill of Materials
+
+>>>>>>> 4d66daf680e977b10ce27f31c2d3cd9718b6a73b
 |Unit Quantity|Unit Cost|Total Cost|Manufacturer|Manufacturer Part #|Vendor Link|Datasheet Link|Supplier|Supplier Part #|
 |:----|:----|:----|:----|:----|:----|:----|:----|:----|
 |3|$3.46|$10.38|ams OSRAM|AS5600-ASOM|AS5600-ASOM ams OSRAM | Sensors, Transducers | DigiKey|AS5600|Digikey|AS5600-ASOMCT-ND|
