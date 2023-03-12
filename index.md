@@ -22,31 +22,6 @@ The following illustration demonstrates the team's projected hardware system and
 ![Block Diagram](/media/webpage/Block_Diagram.png "Block Diagram")
 
 
-# Verification Table 
-
-| |5V Power Supply|PIC|Voltage Divider|Windspeed Sensor|Temp Sensor|Motor Controller|Solenoid Motor (Extension)|Auxilary Motor (Pivot)|ESP32 MQTT Module|Push Button (Manual Override)|
-|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|
-|5V Power Supply|u|u|u|nc|nc|nc|nc|nc|nc|nc|
-|PIC| |u|u|u|u|u|nc|nc|u|u|
-|Voltage Divider| | |u|nc|nc|nc|nc|nc|nc|nc|
-|Windspeed Sensor| | | |u|nc|nc|nc|nc|nc|nc|
-|Temp Sensor| | | | |u|nc|nc|nc|nc|nc|
-|Motor Controller| | | | | |u|u|u|nc|nc|
-|Solenoid Motor (Extension)| | | | | | |u|nc|nc|nc|
-|Auxilary Motor (Pivot)| | | | | | | |u|nc|nc|
-|ESP32 MQTT Module| | | | | | | | |u|nc|
-|Push Button (Manual Override)| | | | | | | | | |u|
-
-## keys
-
-| sign | meaning|
-| :----| :----|
-| u | unverified connection/subsystem |
-| x | connection verified by you |
-| v (XYZ, 1/23/45)| connection verified by instructors (INITIALS, date) |
-| (xyz) | serial protocol |
-| nc | No Connection |
-
 # Component Selection 
 
 
@@ -86,17 +61,28 @@ The following illustration demonstrates the team's projected hardware system and
 
 ![Software Proposal](/media/webpage/software_proposal.png "Software Proposal")
 
+
+
 # Appendix A - Team Organization
 [ Appendix A - Team Organization](Appendix_A.md)
 
 # Appendix B - User Needs, Benchmarking, and Requirements
 [ Appendix B - User Needs, Benchmarking, and Requirements](Appendix_B.md)
 
+# Appendix C - Design Ideation 
+[ Appendix C - Design Ideation ](Appendix_C.md)
 
+# Appendix D - Block Diagram
+[ Appendix D - Block Diagram](Appendix_D.md)
 
-# Appendix D - Component Selection
-[ Appendix D -Component Selection](Appendix_D.md)
+# Appendix E - Component Selection
+[ Appendix E -Component Selection](Appendix_E.md)
 
+# Appendix F - Microcontroller Selection
+[ Appendix F - Microcontroller Selection](Appendix_F.md)
 
-# Appendix E - Bill of Materials
-[ Appendix E - Bill of Materials](Appendix_E.md)
+# Appendix G - Software Proposal
+[ Appendix G - Software Proposal](Appendix_G.md)
+
+# Appendix G - Hardware Proposal
+[ Appendix G - Hardware Proposal](Appendix_H.md)
