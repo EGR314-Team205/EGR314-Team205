@@ -29,28 +29,28 @@ The following illustration demonstrates the team's projected hardware system and
 
 | Solution | Price |
 |:----|:----|
-|drv8830dgqr <img src="/media/webpage//drv8830dgqr.png" alt="drv8830dgqr" width="25%" height="25%"/>| $2.41|
-|solenoid <img src="/media/webpage//solenoid.png" alt="solenoid" width="25%" height="25%"/> | $7.50|
-|motor <img src="/media/webpage//motor.png" alt="motor" width="25%" height="25%"/>| $19.95|
+|drv8830dgqr <br> <img src="/media/webpage//drv8830dgqr.png" alt="drv8830dgqr" width="25%" height="25%"/>| $2.41|
+|solenoid  <br> <img src="/media/webpage//solenoid.png" alt="solenoid" width="25%" height="25%"/> | $7.50|
+|motor  <br> <img src="/media/webpage//motor.png" alt="motor" width="25%" height="25%"/>| $19.95|
 
 ## Temperature Sensor & Op Amp
 
 | Solution | Price |
 |:----|:----|
-|TC74A0 <img src="/media/webpage//TC74A0.png" alt="TC74A0" width="25%" height="25%"/>| $1.09|
+|TC74A0 <br> <img src="/media/webpage//TC74A0.png" alt="TC74A0" width="25%" height="25%"/>| $1.09|
 
 ## Hall Effect (Wind Sensor)
 
 | Solution | Price |
 |:----|:----|
-|AS5600 <img src="/media/webpage//AS5600.png" alt="AS5600" width="25%" height="25%"/>| $3.46|
+|AS5600 <br> <img src="/media/webpage//AS5600.png" alt="AS5600" width="25%" height="25%"/>| $3.46|
 
 
 ## Microcontroller 
 
 | Solution | Price |
 |:----|:----|
-|PIC18LF26K40 <img src="/media/webpage//PIC18LF26K40.png" alt="PIC18LF26K40" width="25%" height="25%"/>| $2.04|
+|PIC18LF26K40 <br> <img src="/media/webpage//PIC18LF26K40.png" alt="PIC18LF26K40" width="25%" height="25%"/>| $2.04|
 
 
 # Hardware Proposal 
