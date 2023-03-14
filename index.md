@@ -55,7 +55,9 @@ The following illustration demonstrates the team's projected hardware system and
 
 # Hardware Proposal 
 
-![Hardware Proposal](/media/webpage/hardware_proposal.png "Hardware Proposal")
+![Hardware Proposal](/media/webpage/hardware_proposal_1.png "Hardware Proposal 1")
+
+![Hardware Proposal](/media/webpage/hardware_proposal_2.png "Hardware Proposal 2")
 
 # Software Proposal
 
@@ -84,5 +86,5 @@ The following illustration demonstrates the team's projected hardware system and
 # Appendix G - Software Proposal
 [ Appendix G - Software Proposal](Appendix_G.md)
 
-# Appendix G - Hardware Proposal
-[ Appendix G - Hardware Proposal](Appendix_H.md)
+# Appendix H - Hardware Proposal
+[ Appendix H - Hardware Proposal](Appendix_H.md)
