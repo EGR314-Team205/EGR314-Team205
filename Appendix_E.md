@@ -1,4 +1,4 @@
-# Appendix D - Component Selection
+# Appendix E - Component Selection
 
 
 # Component Research
@@ -19,7 +19,7 @@
 
 | Option | Solution   |     Pros          | Cons      |
 |--------|-----------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| 1 | Analog Devices Inc. TMP36GT9Z $2.40 [Product Link](https://www.digikey.com/en/products/detail/analog-devices-inc./TMP36GT9Z/820404?utm_adgroup=Sensors%2C%20Transducers&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Supplier_Analog%20Devices_8100_Co-op&utm_term=&utm_content=Sensors%2C%20Transducers&gclid=CjwKCAiAuOieBhAIEiwAgjCvcsCZyWVeiyDcKQUVVTk8pV4ASd2GmkGpzxy_TOEjEfYKlqq3DK2GTBoC_5sQAvD_BwE)                 | Can measure from -40 degrees to 125 degrees (Celsius)  Requires 2.7-5.5V to power Inexpensive Analog | Requires ADC Would need to configure specific resistances in the temperatures desired because of the large range the sensor can detect |
+| 1 | Analog Devices Inc. TMP36GT9Z $2.40 [Product Link](https://www.digikey.com/en/products/detail/analog-devices-inc./TMP36GT9Z/820404?utm_adgroup=Sensors%2C%20Transducers&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Supplier_Analog%20Devices_8100_Co-op&utm_term=&utm_content=Sensors%2C%20Transducers&gclid=CjwKCAiAuOieBhAIEiwAgjCvcsCZyWVeiyDcKQUVVTk8pV4ASd2GmkGpzxy_TOEjEfYKlqq3DK2GTBoC_5sQAvD_BwE)                 | Can measure from -40 degrees to 125 degrees (Celsius)  Requires 2.7-5.5V to power Inexpensive Analog | Requires ADC <br> Would need to configure specific resistances in the temperatures desired because of the large range the sensor can detect |
 | 2 |  Vishay Dale 02C5000FF $7.47 [Product Link](https://www.digikey.com/en/products/detail/vishay-dale/02C5000FF/7102168?utm_adgroup=Sensors&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Supplier_Vishay&utm_term=&utm_content=Sensors&gclid=CjwKCAiAuOieBhAIEiwAgjCvcjanU_nYK6sKSd_tNL7Bc9r0mU-zho8bE9Sww9H88CmrueyUZ3rF7xoCSCEQAvD_BwE)                         | Smaller in size than above Also can measure from -40 degrees to 125 degrees (Celsius)                | More Expensive Operating Voltage not specified                                                                                         |
 
 

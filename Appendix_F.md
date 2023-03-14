@@ -1,4 +1,4 @@
-# Appendix D -  Microcontroller Selection
+# Appendix F - Microcontroller Selection
 
 |1. Determine your project-specific requirements| |3. Look up specifications in the PIC datasheet| | |
 |:----|:----|:----|:----|:----|
@@ -43,4 +43,4 @@ Has all the required hardware and software capabilities.|
 Max GPIO current not specified|Maximum current not specified. Supply Voltage range not specified Most expensive option out of the three.
 Maximum GPIO current is lower than others|Does not include code examples.
 Small voltage rangehas more features than required|
-|Ranking|1 = first, 2 = second, 3 = third|1|2|3|
+|Ranking|1 = first, 2 = second, 3 = third|1|2|3|s

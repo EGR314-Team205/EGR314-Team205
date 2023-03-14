@@ -64,6 +64,7 @@ Table 3: List of names, abbreviations used in Table 1 above, email, and phone.
 |Amy    |A           |acvalen9@asu.edu|808-542-8065 |
 
 ## Meeting Coordiation
+
 What method will you use to remind yourselves of meetings (a shared calendar?) 
     A reminder text for each other about the times of the meeting.
 How will your team go about changing or adding meeting times? 
@@ -75,9 +76,11 @@ Are there any other procedures that your team feels are necessary? Describe them
 
 
 ## Team Coordination 
+
 Discord and emails will be used to communicate. The team will meet virtually over discord call and in the PRLTA 103/107 as required. Calling only be resorted to when a team member is not responding. The team has a shared folder where all the documents and files will be stored.
 
 ## Conflict Recognition and Resolution
+
 The team will ensure all members are equally contributing to the assignments. Any minor conflicts should be communicated via a communication channel. Any major conflict should be brought to the instructor's attention and, if necessary, a mediated discussion will be held.
 The team will ensure all members are equally contributing to the assignments. Any minor conflicts should be communicated via a communication channel. Any major conflict should be brought to the instructor's attention and, if necessary, a mediated discussion will be held.
 
