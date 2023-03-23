@@ -1,8 +1,8 @@
 # Appendix E - Component Selection
 
+## Component Research
 
-# Component Research
-## Motor 
+### Motor
 
 | Option | Solution   | Pros            | Cons          |
 |--------|---------------------------------------------------------------------------------|----------------------------------------------|---------------------------|
@@ -12,21 +12,23 @@
 
 **Choice**: Pololu HP Micro Metal Gear Motors #4794
 
+<img src="/media/webpage//motor.png" alt="motor" width="25%" height="25%"/>
+
 **Rationale**: We decided to go with this particular product since we are able to get relatively higher torque in a small form factor with low power consumption. This fits our product idea well. 
 
-
-## Temperature Sensor & Op Amp 
+### Temperature Sensor
 
 | Option | Solution   |     Pros          | Cons      |
 |--------|-----------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | 1 | Analog Devices Inc. TMP36GT9Z $2.40 [Product Link](https://www.digikey.com/en/products/detail/analog-devices-inc./TMP36GT9Z/820404?utm_adgroup=Sensors%2C%20Transducers&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Supplier_Analog%20Devices_8100_Co-op&utm_term=&utm_content=Sensors%2C%20Transducers&gclid=CjwKCAiAuOieBhAIEiwAgjCvcsCZyWVeiyDcKQUVVTk8pV4ASd2GmkGpzxy_TOEjEfYKlqq3DK2GTBoC_5sQAvD_BwE)                 | Can measure from -40 degrees to 125 degrees (Celsius)  Requires 2.7-5.5V to power Inexpensive Analog | Requires ADC <br> Would need to configure specific resistances in the temperatures desired because of the large range the sensor can detect |
 | 2 |  Vishay Dale 02C5000FF $7.47 [Product Link](https://www.digikey.com/en/products/detail/vishay-dale/02C5000FF/7102168?utm_adgroup=Sensors&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Supplier_Vishay&utm_term=&utm_content=Sensors&gclid=CjwKCAiAuOieBhAIEiwAgjCvcjanU_nYK6sKSd_tNL7Bc9r0mU-zho8bE9Sww9H88CmrueyUZ3rF7xoCSCEQAvD_BwE)                         | Smaller in size than above Also can measure from -40 degrees to 125 degrees (Celsius)                | More Expensive Operating Voltage not specified                                                                                         |
-
-
 **Choice**: Option 1: TMP36GT9Z Temperature Sensor
+
+<img src="/media/webpage//TC74A0.png" alt="TC74A0" width="25%" height="25%"/>
+
 **Rationale**: While both options have the same range of measurable temperatures, option 1 is able to operate at the range of 2.7V to 5.5V which is within our desired voltage of operation. Also, option 1 is significantly less expensive than option 2.
 
-## Wind Sensor
+### Hall Effect (Wind Sensor Subsystem)
 
 | Option | Solution                                                                                                        | Pros                                                                                   | Cons                                                                                                                                             |
 |--------|-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -34,12 +36,14 @@
 | 2 | ams OSRAM AS5600-ASOM $3.46 [Product Link](https://www.digikey.com/en/products/detail/ams-osram/AS5600-ASOM/4914332)          | I2C protocol Smaller physical footprint Wind cups can be 3d modeled or ordered         | Would require additional wind cup and structure Lower resolution Requires timer and equation implementation within code Requires external magnet |
 | 3 | Bourns Inc. PEC12R-4025F-N0024 $1.25 [Product Link](https://www.digikey.com/en/products/detail/bourns-inc/PEC12R-4025F-N0024/4499645) | Low cost solution for reading wind speed Wind cups can be 3d modeled as well           | Would require additional wind cup and structure Lower resolution Requires timer and equation implementation within code Requires ADC             |
 
-
 **Choice**: AS5600-ASOM + External cup assembly (bought or designed)
+
+<img src="/media/webpage//AS5600.png" alt="AS5600" width="25%" height="25%"/>
+
 **Rationale**: This hall effect sensor will simplify the electrically design while only slightly increasing the programming difficulty. Despite needing to calculate linear velocity from rotational position, this sensor will greatly reduce materials cost in both pcb footprint and external construct.
 
 
-## Power Supply 
+### Power Supply
 
 | Option | Solution                                                 | Pros                                                                             | Cons                                                                            |
 |--------|----------------------------------------------------------|----------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
@@ -47,10 +51,13 @@
 | 2 | ROHM Semiconductor BD900N1G-CTR $1.34 [Product Link](https://www.mouser.com/ProductDetail/ROHM-Semiconductor/BD900N1G-CTR?qs=tlsG%2FOw5FFj5wsaHI6szYQ%3D%3D )       | Surface mount Reasonable output voltage (1.25 - 13.8V)                           | More expensive than above                                                       |
 | 3 | Microchip Technology / Atmel LR12K4-G $1.97 [Product Link](https://www.digikey.com/en/products/detail/texas-instruments/LM340T-5-0-NOPB/6237?utm_adgroup=Texas%20Instruments&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_Focus%20Suppliers&utm_term=&utm_content=Texas%20Instruments&gclid=Cj0KCQiA4aacBhCUARIsAI55maFnEFSxY9Nrp74SMGPRYId6pp5bPTp1S4CAfAtAoHT3UKIn8THIalcaAgYoEALw_wcB)  | High output voltage (1-88V) In stock                                             | Most expensive of the three Smallest option                                     |
 
-**Choice**: Option 2: ROHM Semiconductor BD900N1G-CTR
+**Choice**: MIC4575WU
+
+<img src="/media/webpage/MIC4575WU.png" alt="MIC4575WU" width="25%" height="25%"/>
+
 **Rationale**:
 
-## Power Control Module : Switching Voltage Regulator - (Amy)
+## Power Control Module : Switching Voltage Regulator 
 
 | Option | Solution                                              | Pros                                                  | Cons                                       |
 |--------|-------------------------------------------------------|-------------------------------------------------------|--------------------------------------------|
@@ -58,6 +65,9 @@
 | 2 | Adafruit Industries 1528-1835-ND $24.50 [Product Link](https://www.digikey.com/en/products/detail/adafruit-industries-llc/353/5054549)| Not wall bound Can be recharged after use             | Most expensive option  3.7V may be too low |
 | 3 | TKDY 9V 1.5A Power Supply Charger  $12.99 [Product Link](https://www.amazon.com/Adapter-Switching-Transformer-Charger-Certificate/dp/B08F78R13B/ref=pd_lpo_1?pd_rd_w=SALEX&content-id=amzn1.sym.116f529c-aa4d-4763-b2b6-4d614ec7dc00&pf_rd_p=116f529c-aa4d-4763-b2b6-4d614ec7dc00&pf_rd_r=K8CAXBE8ZR889PMYWN45&pd_rd_wg=VDzOb&pd_rd_r=45420db3-0978-4b0b-aca4-bb7349181a80&pd_rd_i=B08F78R13B&th=1) | Continuous short circuit protection Multiple adapters | No datasheet                               |
 
-**Choice**: Option 2: Adafruit Battery Pack
+**Choice**:  Adafruit Battery Pack
+
+<img src="/media/webpage/power_supply.png" alt="power_supply" width="25%" height="25%"/>
+
 **Rationale**: The Adafruit battery is not bound to a wall outlet so it can be taken almost anywhere. It can also be recharged after every use and has a life cycle of at least 500 uses.
 

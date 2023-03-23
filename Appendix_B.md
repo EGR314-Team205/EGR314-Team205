@@ -74,28 +74,15 @@ Description: This product is wifi based temperature and humidity sensor. Tempera
 
 ![Govee WiFi Thermometer Hygrometer](/media/webpage/Govee%20WiFi%20Thermometer%20Hygrometer.png "Govee WiFi Thermometer Hygrometer")
 
-
 |Consumer Voice (Negative)                  | Related Customer Needs                  |
 |-------------------------------------------|-----------------------------------------|
 |“In less than a year. I have 5 units and   |1. The product needs to be waterproof       |
- 4 no longer work. I was using reptile      |2. The product needs to be reliable         |
- cages that had misters. I believe they 
- got wet or there was just too much 
- humidity. I found rust inside the 
- batteries so I’m assuming the water 
- and high humidity did them in”
+| "no longer work. I was using reptile cages that had misters. I believe they got wet or there was just too much humidity. found rust inside the batteries so I’m assuming the water and high humidity did them in”    |2. The product needs to be reliable         |
 
 |Consumer Voice (Negative)                  | Related Customer Needs                  |
 |-------------------------------------------|-----------------------------------------|
-|“I wanted a more accurate and user-friendly| Should be easy to use | 
-hygrometer for my humidor. With the app     |The product needs to be reliable|
-I am able to see the temp, and humidity 
-of my cigar cooler from anywhere. You can 
-set the ranges to alert your phone if the 
-temp or RH gets too high or low. Very 
-useful!”
-
-
+|“I wanted a more accurate and user-friendly| Should be easy to use |
+|"hygrometer for my humidor. With the app I am able to see the temp, and humidity of my cigar cooler from anywhere. You can set the ranges to alert your phone if the temp or RH gets too high or low. Very useful!”  |The product needs to be reliable|
 
 ## Use Cases
 
