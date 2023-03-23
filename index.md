@@ -40,7 +40,7 @@ The following illustration demonstrates the team's projected hardware system and
 |:----|:----|
 |TC74A0 | <img src="/media/webpage//TC74A0.png" alt="TC74A0" width="25%" height="25%"/>|
 
-### Hall Effect (Wind Sensor Subsystem)
+### Hall Effect Sensor (Wind Speed Subsystem)
 
 | Solution | Image |
 |:----|:----|
@@ -74,7 +74,7 @@ Refer to [Appendix E](Appendix_E.md) for more information
 
 [Appendix B - User Needs, Benchmarking, and Requirements](Appendix_B.md)
 
-### Appendix C - Design Ideation 
+### Appendix C - Design Ideation
 
 [Appendix C - Design Ideation](Appendix_C.md)
 
