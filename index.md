@@ -18,6 +18,11 @@ During the decision-making process for our selected design, we realized that the
 
 ![Concept 2](/media/webpage//EGR314Concept.png "Chosen Design Concept")
 
+### Project Idealization
+
+![Project Render](/media/webpage/project_render.jpg "Project Render")
+
+
 ## Block Diagram
 
 The following illustration demonstrates the team's projected hardware system and how it interconnects with the centered microcontroller and ESP32 Module. Additionally, the team utilizes I2C as the core communication between our sensors and PIC module.
