@@ -14,9 +14,8 @@ _“Our mission is to design and develop an embedded system that incorporates en
 This is a product that will assist people in wheelchair to block the wet rain or the very hot sunlight. This device will be activated when either the temperature detects very hot weather or the user feels rain coming down. When it rains, the wind speed sensor will use the data collected of the wind speed and calculate the direction of the wind to direct the umbrella to go against the rain the protect the user from getting wet. The umbrella that is mounted in this device is a umbrella that is able to open and close with a push of a button which will be pressed by the solenoid motor. Also, there is a clamp at the bottom of the device that will be able to clamp onto the side poles of the back supports of wheelchairs.
 
 
-![PCB Holder Render](/media/webpage/pcb_holder_render.jpg "PCB Holder Render")
+![PCB Holder ](/media/webpage/pcb_holder.jpg "PCB Holder ")
 
-![PCB Holder Render](/media/webpage/pcb_holder_render.jpg "PCB Holder Render")
 
 
 ### Design Rationale
