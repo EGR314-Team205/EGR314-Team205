@@ -4,13 +4,20 @@
 
 _“Our mission is to design and develop an embedded system that incorporates environmental sensors, providing users with real-time data on temperature and wind speed. By leveraging affordability and small form-factor technologies, we strive to deliver a product that will benifit the user and exceed their expectations.”_
 
-## Checkpoint 1
 
-[![Checkpoint1](http://img.youtube.com/vi/tuxcnhY91rg/0.jpg)](http://www.youtube.com/watch?v=tuxcnhY91rg "Checkpoint1")
+## Innovation Showcase Poster 
+
+![Innnocation Schowcasse Poster](/media/webpage/InnovationShowCasePoster.png "Innnocation Schowcasse Poster")
 
 ## Team Design: Weather Umbrella
 
 This is a product that will assist people in wheelchair to block the wet rain or the very hot sunlight. This device will be activated when either the temperature detects very hot weather or the user feels rain coming down. When it rains, the wind speed sensor will use the data collected of the wind speed and calculate the direction of the wind to direct the umbrella to go against the rain the protect the user from getting wet. The umbrella that is mounted in this device is a umbrella that is able to open and close with a push of a button which will be pressed by the solenoid motor. Also, there is a clamp at the bottom of the device that will be able to clamp onto the side poles of the back supports of wheelchairs.
+
+
+![PCB Holder Render](/media/webpage/pcb_holder_render.jpg "PCB Holder Render")
+
+![PCB Holder Render](/media/webpage/pcb_holder_render.jpg "PCB Holder Render")
+
 
 ### Design Rationale
 
@@ -22,6 +29,9 @@ During the decision-making process for our selected design, we realized that the
 
 ![Project Render](/media/webpage/project_render.jpg "Project Render")
 
+![PCB Holder Render](/media/webpage/pcb_holder_render.jpg "PCB Holder Render")
+
+![Umbrella Holder Render](/media/webpage/stnad_render.png "Umbrella Holder Render")
 
 ## Block Diagram
 
@@ -60,14 +70,38 @@ The following illustration demonstrates the team's projected hardware system and
 Refer to [Appendix E](Appendix_E.md) for more information
 
 ## Hardware Proposal
+The following is the schematic for our team PCB
 
 ![Hardware Proposal 1](/media/webpage/hardware_proposal_1.png "Hardware Proposal 1")
 
 ![Hardware Proposal 2](/media/webpage/hardware_proposal_2.png "Hardware Proposal 2")
 
+![PCB Render Front](/media/webpage/pcb_front_render.png "PCB Render Front")
+
+![PCB Render Bacl](/media/webpage/pcb_back_render.png "PCB Render Back")
+
 ## Software Proposal
 
+Our software proposal outlines the steps for the program to effectively operate. It begins by initializing all sensors and drivers and establishing a secure connection with each of them. The program then monitors sensor values and compares them with predefined thresholds to determine the appropriate actions, including controlling the motors. By following these steps, our software will enable smooth and reliable operation of the system.
+
 ![Software Proposal](/media/webpage/software_proposal.png "Software Proposal")
+
+## Topic Table
+
+Below is our table summarizing all the published and subscribed messages for our topic:
+
+![Topic Table](/media/webpage/topic_table.png "Topic Table")
+
+## Feedback COntroller Diagram
+
+Below is our feebback controller diagram
+
+![Feedback COntroller Diagram](/media/webpage/feedback_controller.png " Feedback Controller Diagram")
+
+
+## Checkpoint 1
+
+[![Checkpoint1](http://img.youtube.com/vi/tuxcnhY91rg/0.jpg)](http://www.youtube.com/watch?v=tuxcnhY91rg "Checkpoint1")
 
 ## Appendices
 
