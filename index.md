@@ -1,4 +1,31 @@
-# Team Organization
+# Table of Contents
+1. [Mission Statement](#mission-statement)<br>
+2. [Innovation Showcase Poster](#innovation-showcase-poster)<br>
+3. [Team Design](#team-design-weather-umbrella)<br>
+   1. [Finalized Design](#final-design--innvoation-showcase)<br>
+   2. [Design Rationale](#design-rationale)<br>
+   3. [Project Idealization](#project-idealization)<br>
+      1. [Rendered Idealistic Design](#rendered-idealistic-design)<br>
+4. [Block Diagram](#block-diagram)<br>
+5. [Component Selection](#component-selection-overview)<br>
+   1. [Motor Subsystem](#motor-subsystem)<br>
+   2. [Temperature Sensor](#temperature-sensor)<br>
+   3. [Wind Speed Subsystem](#hall-effect-sensor-wind-speed-subsystem)<br>
+   4. [Microcontroller](#microcontroller)<br>
+6. [Hardware Implementation](#hardware-implementation)<br>
+   1. [PCB Renders](#pcb-renders)<br>
+      1. [Team PCB](#team-pcb)<br>
+      2. [Daughter Board](#daughter-board)<br>
+      3. [Future Hardware Design Changes](#future-hardware-design-changes)<br>
+7. [Software Implementation](#software-implementation)<br>
+   1. [MPLABX Peripheral Overview](#mplabx-peripheral-overview)<br>
+   2. [Topic Table](#topic-table)<br>
+   3. [Feedback Controller Diagram](#feedback-controller-diagram)<br>
+   4. [Future Software Design Changes](#future-software-design-changes)<br>
+8. [Lessons Learned](#lessons-learned)<br>
+9.  [Recommendations For Future Students](#recommendations-for-future-students)<br>
+10. [Initial Design Brief](#initial-design-brief-checkpoint-1)<br>
+11. [Appendix](#appendices)
 
 ## Mission Statement  
 
@@ -13,7 +40,7 @@ _“Our mission is to design and develop an embedded system that incorporates en
 
 This is a product that will assist people in wheelchair to block the wet rain or the very hot sunlight. This device will be activated when either the temperature detects very hot weather or the user feels rain coming down. When it rains, the wind speed sensor will use the data collected of the wind speed and calculate the direction of the wind to direct the umbrella to go against the rain the protect the user from getting wet. The umbrella that is mounted in this device is a umbrella that is able to open and close with a push of a button which will be pressed by the solenoid motor. Also, there is a clamp at the bottom of the device that will be able to clamp onto the side poles of the back supports of wheelchairs.
 
-
+#### Final Design @ Innovation Showcase
 ![PCB Holder ](/media/webpage/pcb_holder.jpg "PCB Holder ")
 
 
@@ -26,7 +53,7 @@ During the decision-making process for our selected design, we realized that the
 
 ### Project Idealization
 
-#### AI Generated Image for Visualization
+#### Rendered Idealistic Design
 
 ![Project Render](/media/webpage/project_render.jpg "Project Render")
 
@@ -50,7 +77,7 @@ The following illustration demonstrates the team's projected hardware system and
 
 ## Component Selection Overview
 
-### Motor Sub System
+### Motor Subsystem
 
 | Solution | Image |
 |:----|:----|
@@ -102,7 +129,7 @@ Check [Appendix H - Hardware Proposal](Appendix_H.md) for more information
 
 ![PCB Render Back](/media/webpage/render_daughter_board_back.png "PCB Render Back")
 
-#### Future Hardware Design Changes
+### Future Hardware Design Changes
 
 In the development of our embedded systems project, it is crucial to carefully consider the power budgeting of the system. Our design currently relies on a wall power system but will need to rely on a standalone battery supply in our proposed application. With this said, It is imperative to evaluate ways in which power budgeting can be made more efficient. One approach that our team can consider, although slightly over the top,  is the utilization of enable pins that can be controlled by unused pins from the microcontroller. Such power-saving techniques can extend the battery life of the system. Furthermore, more advanced methods, such as reducing power consumption during idle periods or implementing sleep modes, can also be explored.
 
@@ -128,7 +155,19 @@ Check [Appendix G - Software Proposal](Appendix_G.md) for more information
 
 ![MPLABX_Peripherals_and_Pin_Setup_1-3](/media/webpage/MPLABX_Peripherals_and_Pin_Setup_1-3.png "MPLABX_Peripherals_and_Pin_Setup_1-3")
 
-#### Future Software Design Changes
+### Topic Table
+
+Below is our table summarizing all the published and subscribed messages for our topic:
+
+![Topic Table](/media/webpage/topic_table.png "Topic Table")
+
+### Feedback Controller Diagram
+
+Below is our feedback controller diagram
+
+![Feedback Controller Diagram](/media/webpage/feedback_controller.png " Feedback Controller Diagram")
+
+### Future Software Design Changes
 
 The current system uses an OLED screen for displaying data via bar charts. Adding additional user interface elements on top of our button, such as more complex read-only ESP32 commands, would allow the user for more interactivity and control.
 
@@ -136,18 +175,6 @@ The code performance can be optimized for smaller-scale embedded systems such as
 
 Given that our microcontroller only has 10kb of programmable memory, we could consider writing data to an onboard SD card if more peripherals and sensors were added to the system. With our current design, we were exceeding 90% capacity so external memory could be a valid option.
 The PIC Microcontrollers have slower processing speeds so utilizing interrupt service protocols (ISP) in our code algorithms will significantly improve performance and reduce the apparent lag of our single-threaded code capacity.
-
-## Topic Table
-
-Below is our table summarizing all the published and subscribed messages for our topic:
-
-![Topic Table](/media/webpage/topic_table.png "Topic Table")
-
-## Feedback Controller Diagram
-
-Below is our feedback controller diagram
-
-![Feedback Controller Diagram](/media/webpage/feedback_controller.png " Feedback Controller Diagram")
 
 ## Lessons Learned
 
@@ -208,6 +235,6 @@ Below is our feedback controller diagram
 
 [Appendix G - Software Proposal](Appendix_G.md)
 
-### Appendix H - Hardware Proposal
+### Appendix H - Power Budget & Bill of Materials
 
-[Appendix H - Hardware Proposal](Appendix_H.md)
+[Appendix H - Power Budget & Bill of Materials](Appendix_H.md)

@@ -7,13 +7,13 @@ _“To produce and showcase a cost-effective product that provides at least 2 di
 
 ## Charter 
 
--Utilize at least two different environmental sensors in our product
--Create a low-cost solution suitable for a targeted consumer base
--Measure and record environmental data
--Broadcast sensor data via MQTT protocol addition to our portfolio of engineering project
--Continue to build experience creating embedded systems and working in a team 
--Continue to improve time management skills throughout the project/semester 
--Express our passion for the environment and engineering
+-Utilize at least two different environmental sensors in our product <br>
+-Create a low-cost solution suitable for a targeted consumer base <br>
+-Measure and record environmental data<br>
+-Broadcast sensor data via MQTT protocol addition to our portfolio of engineering project<br>
+-Continue to build experience creating embedded systems and working in a team <br>
+-Continue to improve time management skills throughout the project/semester <br>
+-Express our passion for the environment and engineering <br>
 
 ## Communication Channels 
 

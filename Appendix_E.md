@@ -21,13 +21,15 @@
 | Option | Solution   |     Pros          | Cons      |
 |--------|-----------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | 1 | Analog Devices Inc. TMP36GT9Z <br> $2.40 <br> [Product Link](https://www.digikey.com/en/products/detail/analog-devices-inc./TMP36GT9Z/820404)                 | Can measure from -40 degrees to 125 degrees (Celsius) <br> Requires 2.7-5.5V to power Inexpensive Analog | Requires ADC <br> Would need to configure specific resistances in the temperatures desired because of the large range the sensor can detect |
-| 2 |  Vishay Dale 02C5000FF <br> $7.47 <br> [Product Link](https://www.digikey.com/en/products/detail/vishay-dale/02C5000FF/7102168)                         | Smaller in size than above <br> Can measure from -40 degrees to 125 degrees (Celsius)                | More Expensive <br> Operating Voltage not specified                                                                                         |
+| 2 |  Vishay Dale 02C5000FF <br> $7.47 <br> [Product Link](https://www.digikey.com/en/products/detail/vishay-dale/02C5000FF/7102168)                         | Smaller in size than above <br> Can measure from -40 degrees to 125 degrees (Celsius)                | More Expensive <br> Operating Voltage not specified 
+| 3| Microchip Technology <br> TC74A4-3.3VCTTR <br> $0.97 <br> [Product Link](https://www.digikey.com/en/products/detail/microchip-technology/TC74A4-3.3VCTTR/9643996) | Previous In-Class experience with chip <br> It is a surface mount component <br> Can measure from -40 degrees to 125 degrees (Celsius) | Only 7b resolution <br> Less accurate for measurements less than 0 <br>Component size is smaller compared to the other options
 
-**Choice**: Option 1: TMP36GT9Z Temperature Sensor
 
-<img src="/media/webpage//TC74A0.png" alt="TC74A0" width="25%" height="25%"/>
+**Choice**: Option 3: TC74A4-3.3VCTTR Temperature Sensor
 
-**Rationale**: While both options have the same range of measurable temperatures, option 1 is able to operate at the range of 2.7V to 5.5V which is within our desired voltage of operation. Also, option 1 is significantly less expensive than option 2.
+<img src="/media/webpage//TC74A4.png" alt="TC74A4-3.3VCTTR" width="25%" height="25%"/>
+
+**Rationale**: While the other options have a wider range of temperatures measure, this option was the best choice because it is the only option that is surface mount. Another reason is that we are familiar with this sensor from In-class assignments.
 
 ### Hall Effect Sensor (Wind Speed Subsystem)
 

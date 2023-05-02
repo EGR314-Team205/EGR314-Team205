@@ -44,3 +44,7 @@ Max GPIO current not specified|Maximum current not specified. Supply Voltage ran
 Maximum GPIO current is lower than others|Does not include code examples.
 Small voltage rangehas more features than required|
 |Ranking|1 = first, 2 = second, 3 = third|1|2|3|s
+
+Final Microcontroller Choice: PIC18LF26K40-I/SO
+
+Rationale: Option 1 was chosen because it was the only one that is compatible with MCC and also it has more than enough pins than required. Additionally, it is the cheapest option out of the three and the voltage range is larger than the two other options.

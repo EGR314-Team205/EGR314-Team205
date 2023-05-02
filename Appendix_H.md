@@ -1,4 +1,4 @@
-# Appendix H Hardware Proposal
+# Appendix H - Power Budget & Bill of Materials
 
 ## Power Budget
 
