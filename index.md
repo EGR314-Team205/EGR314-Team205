@@ -2,7 +2,7 @@
 1. [Mission Statement](#mission-statement)<br>
 2. [Innovation Showcase Poster](#innovation-showcase-poster)<br>
 3. [Team Design](#team-design-weather-umbrella)<br>
-   1. [Finalized Design](#final-design--innvoation-showcase)<br>
+   1. [Finalized Design](#final-design-innovation-showcase)<br>
    2. [Design Rationale](#design-rationale)<br>
    3. [Project Idealization](#project-idealization)<br>
       1. [Rendered Idealistic Design](#rendered-idealistic-design)<br>
@@ -40,7 +40,7 @@ _“Our mission is to design and develop an embedded system that incorporates en
 
 This is a product that will assist people in wheelchair to block the wet rain or the very hot sunlight. This device will be activated when either the temperature detects very hot weather or the user feels rain coming down. When it rains, the wind speed sensor will use the data collected of the wind speed and calculate the direction of the wind to direct the umbrella to go against the rain the protect the user from getting wet. The umbrella that is mounted in this device is a umbrella that is able to open and close with a push of a button which will be pressed by the solenoid motor. Also, there is a clamp at the bottom of the device that will be able to clamp onto the side poles of the back supports of wheelchairs.
 
-#### Final Design @ Innovation Showcase
+#### Final Design (Innovation Showcase)
 ![PCB Holder ](/media/webpage/pcb_holder.jpg "PCB Holder ")
 
 
