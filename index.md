@@ -26,16 +26,20 @@ During the decision-making process for our selected design, we realized that the
 
 ### Project Idealization
 
-AI generated image for visualization
+#### AI Generated Image for Visualization
+
 ![Project Render](/media/webpage/project_render.jpg "Project Render")
 
-Render of PCB holder
+#### Render of PCB Holder
+
 ![PCB Holder Render](/media/webpage/pcb_holder_render.jpg "PCB Holder Render")
 
-Render of team PCB
+#### Render of Team PCB
+
 ![PCB Render](/media/webpage/PCB_Render.png "PCB Render")
 
-Render of umbrella holder
+#### Render of Umbrella Holder
+
 ![Umbrella Holder Render](/media/webpage/stnad_render.png "Umbrella Holder Render")
 
 ## Block Diagram
@@ -74,7 +78,7 @@ The following illustration demonstrates the team's projected hardware system and
 
 Refer to [Appendix E](Appendix_E.md) for more information
 
-## Hardware Proposal
+## Hardware Implementation
 
 The following is the schematic for our team PCB
 
@@ -82,28 +86,56 @@ The following is the schematic for our team PCB
 
 ![Hardware Proposal 2](/media/webpage/hardware_proposal_2.png "Hardware Proposal 2")
 
-Check [Appendix H - Hardware Proposal](Appendix_H.md) for more information 
+Check [Appendix H - Hardware Proposal](Appendix_H.md) for more information
 
-#### PCB Renders
+### PCB Renders
 
-Team PCB
+#### Team PCB
+
 ![PCB Render Front](/media/webpage/pcb_front_render.png "PCB Render Front")
 
 ![PCB Render Back](/media/webpage/pcb_back_render.png "PCB Render Back")
 
-Daughter Board
+#### Daughter Board
+
 ![PCB Render Front](/media/webpage/render_daughter_board_front.png "PCB Render Front")
 
 ![PCB Render Back](/media/webpage/render_daughter_board_back.png "PCB Render Back")
 
+#### Future Hardware Design Changes
 
-## Software Proposal
+In the development of our embedded systems project, it is crucial to carefully consider the power budgeting of the system. Our design currently relies on a wall power system but will need to rely on a standalone battery supply in our proposed application. With this said, It is imperative to evaluate ways in which power budgeting can be made more efficient. One approach that our team can consider, although slightly over the top,  is the utilization of enable pins that can be controlled by unused pins from the microcontroller. Such power-saving techniques can extend the battery life of the system. Furthermore, more advanced methods, such as reducing power consumption during idle periods or implementing sleep modes, can also be explored.
+
+Optimizing the hardware design is another important aspect to improve the performance and reliability of the system by utilizing more efficient hardware configurations. For instance, passive components packages (0805) can be standardized internally and avoid smaller IC packages as our motor controller was non-functional due to potential hardware issues with installation.
+
+Leaving room for expansion and adaptability is an important quality to have when manufacturing. Additional sensors or hardware components can be easily added through connection pins and designing the software architecture to allow for easy modification. The potential for modularized sensor systems, such as atmospheric and humidity sensors, was discussed during the innovation showcase and should be considered for future development.
+
+By taking into account these areas of improvement, our team can create a more efficient and reliable mobile weather station and the above changes can be implemented to ensure the system is adaptable for future versions.
+
+## Software Implementation
 
 Our software proposal outlines the steps for the program to effectively operate. It begins by initializing all sensors and drivers and establishing a secure connection with each of them. The program then monitors sensor values and compares them with predefined thresholds to determine the appropriate actions, including controlling the motors. By following these steps, our software will enable smooth and reliable operation of the system.
 
 Check [Appendix G - Software Proposal](Appendix_G.md) for more information 
 
 ![Software Proposal](/media/webpage/software_proposal.png "Software Proposal")
+
+### MPLABX Peripheral Overview
+
+![MPLABX_Peripherals_and_Pin_Setup_1-1](/media/webpage/MPLABX_Peripherals_and_Pin_Setup_1-1.png "MPLABX_Peripherals_and_Pin_Setup_1-1")
+
+![MPLABX_Peripherals_and_Pin_Setup_1-2](/media/webpage/MPLABX_Peripherals_and_Pin_Setup_1-2.png "MPLABX_Peripherals_and_Pin_Setup_1-2")
+
+![MPLABX_Peripherals_and_Pin_Setup_1-3](/media/webpage/MPLABX_Peripherals_and_Pin_Setup_1-3.png "MPLABX_Peripherals_and_Pin_Setup_1-3")
+
+#### Future Software Design Changes
+
+The current system uses an OLED screen for displaying data via bar charts. Adding additional user interface elements on top of our button, such as more complex read-only ESP32 commands, would allow the user for more interactivity and control.
+
+The code performance can be optimized for smaller-scale embedded systems such as these which have minimal processing energy and memory. Utilizing simpler functions, algorithms, and smaller data types will reduce memory usage and optimize the overall hardware platform. Small changes such as declaring constant variables and reducing utilization of global variables will also create a better performance impact.
+
+Given that our microcontroller only has 10kb of programmable memory, we could consider writing data to an onboard SD card if more peripherals and sensors were added to the system. With our current design, we were exceeding 90% capacity so external memory could be a valid option.
+The PIC Microcontrollers have slower processing speeds so utilizing interrupt service protocols (ISP) in our code algorithms will significantly improve performance and reduce the apparent lag of our single-threaded code capacity.
 
 ## Topic Table
 
@@ -130,7 +162,7 @@ Below is our feedback controller diagram
 - Keep track of deadlines and create a schedule for the team.
 - Complete assignments beforehand for time to review and fix errors before submission.
 
-## Recommendations for future students
+## Recommendations for Future Students
 
 - Pay close attention to details and be precise in your work, especially when it comes to labeling components and specifying values.
 - Communication is key to success in group projects, so make sure to keep in touch with your team regularly.
@@ -160,13 +192,13 @@ Below is our feedback controller diagram
 
 [Appendix C - Design Ideation](Appendix_C.md)
 
-### Appendix D - Block Diagram
+### Appendix D - Verification Table
 
-[Appendix D - Block Diagram](Appendix_D.md)
+[Appendix D - Verification Table](Appendix_D.md)
 
 ### Appendix E - Component Selection
 
-[Appendix E -Component Selection](Appendix_E.md)
+[Appendix E - Component Selection](Appendix_E.md)
 
 ### Appendix F - Microcontroller Selection
 

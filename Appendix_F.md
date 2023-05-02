@@ -3,14 +3,14 @@
 |1. Determine your project-specific requirements| |3. Look up specifications in the PIC datasheet| | |
 |:----|:----|:----|:----|:----|
 |Design Considerations|Team Project-Specific Requirementsfrom Problem Definition and Block Diagram|PIC Option 1|PIC Option 2|PIC Option 3|
-|How many GPIO Pins?| |25 Pins|44 Pins|80 Pins|
-|Built-in Analog to Digital Converter? How many?| |24 Pins|35 Pins|23 Pins|
-|Built-in Hardware PWM? How many?| |2x10 bit|4 Pins|12 Pins|
-|Built-in I2C? SPI? How many?| |Both, 2|2 SPI Pins,
+|How many GPIO Pins?|  16 |25 Pins|44 Pins|80 Pins|
+|Built-in Analog to Digital Converter? How many?| not required |24 Pins|35 Pins|23 Pins|
+|Built-in Hardware PWM? How many?| not required |2x10 bit|4 Pins|12 Pins|
+|Built-in I2C? SPI? How many?| 1x i2c  |Both, 2|2 SPI Pins,
 1 I2C Pin|Both, 1|
-|Built-in UART? How many?| |2x EUSART|2 Pins|1|
-|Other Required Built-In Features? (optional)| | | | |
-|Additional considerations specific to your project specifications (optional)| | | | |
+|Built-in UART? How many?| 1x USART |2x EUSART|2 Pins|1|
+|Other Required Built-In Features? (optional)|  Internal 16-Bit Timers MCC Compatability | | | |
+|Additional considerations specific to your project specifications (optional)| ISRs | | | |
 |2. Find 3 microcontrollers that meet your team project-specific requirements and find information on each| |4. Look up part details in the PIC datasheet| | |
 |Microcontroller Considerations|Instructions|PIC Option 1|PIC Option 2|PIC Option 3|
 |Part Number|Include the entire part number (leave off any letters at the end that specify the package type)|PIC18LF26K40-I/SO|PIC24HJ128GP204|PIC24FJ256DA210|
