@@ -7,7 +7,7 @@ _“Our mission is to design and develop an embedded system that incorporates en
 
 ## Innovation Showcase Poster 
 
-![Innnocation Schowcasse Poster](/media/webpage/InnovationShowCasePoster.png "Innnocation Schowcasse Poster")
+![Innovation Schowcasse Poster](/media/webpage/InnovationShowCasePoster.png "Innovation Schowcasse Poster")
 
 ## Team Design: Weather Umbrella
 
@@ -26,10 +26,16 @@ During the decision-making process for our selected design, we realized that the
 
 ### Project Idealization
 
+AI generated image for visualization
 ![Project Render](/media/webpage/project_render.jpg "Project Render")
 
+Render of PCB holder
 ![PCB Holder Render](/media/webpage/pcb_holder_render.jpg "PCB Holder Render")
 
+Render of team PCB
+![PCB Render](/media/webpage/PCB_Render.png "PCB Render")
+
+Render of umbrella holder
 ![Umbrella Holder Render](/media/webpage/stnad_render.png "Umbrella Holder Render")
 
 ## Block Diagram
@@ -69,19 +75,33 @@ The following illustration demonstrates the team's projected hardware system and
 Refer to [Appendix E](Appendix_E.md) for more information
 
 ## Hardware Proposal
+
 The following is the schematic for our team PCB
 
 ![Hardware Proposal 1](/media/webpage/hardware_proposal_1.png "Hardware Proposal 1")
 
 ![Hardware Proposal 2](/media/webpage/hardware_proposal_2.png "Hardware Proposal 2")
 
+Check [Appendix H - Hardware Proposal](Appendix_H.md) for more information 
+
+#### PCB Renders
+
+Team PCB
 ![PCB Render Front](/media/webpage/pcb_front_render.png "PCB Render Front")
 
-![PCB Render Bacl](/media/webpage/pcb_back_render.png "PCB Render Back")
+![PCB Render Back](/media/webpage/pcb_back_render.png "PCB Render Back")
+
+Daughter Board
+![PCB Render Front](/media/webpage/render_daughter_board_front.png "PCB Render Front")
+
+![PCB Render Back](/media/webpage/render_daughter_board_back.png "PCB Render Back")
+
 
 ## Software Proposal
 
 Our software proposal outlines the steps for the program to effectively operate. It begins by initializing all sensors and drivers and establishing a secure connection with each of them. The program then monitors sensor values and compares them with predefined thresholds to determine the appropriate actions, including controlling the motors. By following these steps, our software will enable smooth and reliable operation of the system.
+
+Check [Appendix G - Software Proposal](Appendix_G.md) for more information 
 
 ![Software Proposal](/media/webpage/software_proposal.png "Software Proposal")
 
@@ -91,14 +111,38 @@ Below is our table summarizing all the published and subscribed messages for our
 
 ![Topic Table](/media/webpage/topic_table.png "Topic Table")
 
-## Feedback COntroller Diagram
+## Feedback Controller Diagram
 
-Below is our feebback controller diagram
+Below is our feedback controller diagram
 
-![Feedback COntroller Diagram](/media/webpage/feedback_controller.png " Feedback Controller Diagram")
+![Feedback Controller Diagram](/media/webpage/feedback_controller.png " Feedback Controller Diagram")
 
+## Lessons Learned
 
-## Checkpoint 1
+- Label components with their values on the schematic to help with organization and board populating.
+- Be specific about sensor values in software proposals.
+- When selecting a microcontroller, carefully read the specifications to ensure it has the necessary capabilities for the project.
+- Update project files as changes are made to facilitate understanding by peers.
+- Communication is critical in group projects to stay on track and ensure tasks are completed.
+- Organize the software diagram logically for clarity.
+- Use indicator LEDs on subsystems to test their functionality during PCB board population.
+- Order multiples of components in case of breakage or loss.
+- Keep track of deadlines and create a schedule for the team.
+- Complete assignments beforehand for time to review and fix errors before submission.
+
+## Recommendations for future students
+
+- Pay close attention to details and be precise in your work, especially when it comes to labeling components and specifying values.
+- Communication is key to success in group projects, so make sure to keep in touch with your team regularly.
+- Keep your project files organized and updated to make it easier for peers to understand your work.
+- When selecting components, be sure to order multiples in case of loss or breakage.
+- Follow a schedule and keep track of deadlines to avoid rushing work.
+- Review and double-check your work before submission to catch any errors or mistakes.
+- Breaking larger assignments into smaller tasks and setting deadlines for each one.
+- Identifying potential obstacles or conflicts ahead of time and coming up with strategies to address them.
+- Implementing feedback from the teaching team in a timely fashion.
+
+## Initial Design Brief (Checkpoint 1)
 
 [![Checkpoint1](http://img.youtube.com/vi/tuxcnhY91rg/0.jpg)](http://www.youtube.com/watch?v=tuxcnhY91rg "Checkpoint1")
 
