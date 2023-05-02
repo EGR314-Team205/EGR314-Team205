@@ -89,7 +89,7 @@ The following illustration demonstrates the team's projected hardware system and
 
 | Solution | Image |
 |:----|:----|
-|TC74A0 | <img src="/media/webpage//TC74A0.png" alt="TC74A0" width="25%" height="25%"/>|
+|TC74A4 | <img src="/media/webpage//TC74A4.png" alt="TC74A4" width="25%" height="25%"/>|
 
 ### Hall Effect Sensor (Wind Speed Subsystem)
 
@@ -148,6 +148,7 @@ Check [Appendix G - Software Proposal](Appendix_G.md) for more information
 ![Software Proposal](/media/webpage/software_proposal.png "Software Proposal")
 
 ### MPLABX Peripheral Overview
+See the following figures for the peripherals and pin GPIO structure utilized in the MPLAB Code Configurator
 
 ![MPLABX_Peripherals_and_Pin_Setup_1-1](/media/webpage/MPLABX_Peripherals_and_Pin_Setup_1-1.png "MPLABX_Peripherals_and_Pin_Setup_1-1")
 
@@ -163,7 +164,7 @@ Below is our table summarizing all the published and subscribed messages for our
 
 ### Feedback Controller Diagram
 
-Below is our feedback controller diagram
+Below is our feedback controller diagram which outlines the simplistic software loop to actuate our motors based on measured sensor data
 
 ![Feedback Controller Diagram](/media/webpage/feedback_controller.png " Feedback Controller Diagram")
 
