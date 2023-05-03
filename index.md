@@ -16,7 +16,7 @@
    1. [PCB Renders](#pcb-renders)<br>
       1. [Team PCB](#team-pcb)<br>
       2. [Daughter Board](#daughter-board)<br>
-      3. [Future Hardware Design Changes](#future-hardware-design-changes)<br>
+   2. [Future Hardware Design Changes](#future-hardware-design-changes)<br>
 7. [Software Implementation](#software-implementation)<br>
    1. [MPLABX Peripheral Overview](#mplabx-peripheral-overview)<br>
    2. [Topic Table](#topic-table)<br>
